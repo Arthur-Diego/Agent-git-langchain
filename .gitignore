@@ -1,0 +1,80 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+.venv/
+venv-project-estrutura-agent-langchain/
+env/
+ENV/
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+*.env
+
+# ==============================
+# IDEs / Editors
+# ==============================
+.idea/
+.vscode/
+*.iml
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+*.out
+
+# ==============================
+# LangChain / Agent artifacts
+# ==============================
+**/intermediate_steps.json
+**/agent_scratchpad.json
+**/observations.json
+
+# ==============================
+# Test / Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Jenkins / CI artifacts
+# ==============================
+jenkins/
+workspace/
+
+# ==============================
+# Git temp files
+# ==============================
+*.orig
+*.rej
+
+# ==============================
+# Patch / Diff files
+# ==============================
+*.patch
+*.diff
